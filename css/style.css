@@ -1,0 +1,135 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Oswald", sans-serif;
+}
+body{
+	background: #000;
+}
+h2, h3, h4, h5, h6{
+	font-family: "Pacifico", cursive;
+}
+#wrapper{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#banner{
+	padding: 200px 0;
+	background: url(../images/burger.jpg) no-repeat center center/cover;
+}
+.section-padding{
+	padding: 50px 0;
+}
+#menuSection{
+	
+	position: relative;
+	background: url("../images/footer-food.png")  no-repeat 103% 110%/110px 110px;
+	background-color: red;
+}
+#logoContainer{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: -100px;
+	left:40%;
+	border-radius: 50%;
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#logoContainer img{
+	width: 100%;
+	height: auto;
+}
+.section-header{
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70px;
+	margin-bottom: 100px;
+	margin: 0 auto;
+	background: url("../images/heading-bg.png") no-repeat center center/350px 70px;
+}
+.content-center{
+	width: 95%;
+	margin: 0 auto;
+}
+.content-center{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+table{
+	width: 100%;
+	margin-left: auto;
+	margin-left: auto;
+}
+table tr{
+	height: 45px;
+}
+
+table td:nth-child(1){
+	text-align: left;
+}
+table td:nth-child(2){
+	text-align: center;
+}
+table td:nth-child(3){
+	text-align: right;
+}
+table td{
+	color: #fff;
+}
+.content-center > h2{
+	color: #fff;
+	text-align: center;
+}
+#orderSection{
+	background: url("../images/food-plate2.jpg") no-repeat center center/cover;
+}
+.overlay{
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.form-group{
+	margin-bottom: 20px;
+}
+.form-control{
+	width: 100%;
+	height: 45px;
+	border-radius: 10px;
+	padding: 10px;
+	color: #fff;
+	border:1px solid #fff;
+}
+.form-control::-ms-Input-placeholder{
+	color: #fff;
+}
+.form-control::placeholder{
+	color: #fff;
+}
+#orderform{
+	margin-top: 20px;
+}
+#orderform .form-control{
+	background-color: transparent;
+}
+#orderform option{
+	color: #0000;
+}
+textarea.form-control{
+	height: 200px;
+}
+.btn-send{
+	background-color: yellow;
+	display: block;
+	width: 100%;
+	padding: 12px 8px;
+	color: #000;
+	border-radius: 10px;
+	border-style: none;
+	font-size: 10px;
+}
