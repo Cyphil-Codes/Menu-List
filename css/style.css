@@ -45,7 +45,7 @@ h2, h3, h4, h5, h6{
 	height: auto;
 }
 .section-header{
-	width: 400px;
+	width: 70%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -118,7 +118,7 @@ table td{
 	background-color: transparent;
 }
 #orderform option{
-	color: #0000;
+	color: #000;
 }
 textarea.form-control{
 	height: 200px;
@@ -132,4 +132,50 @@ textarea.form-control{
 	border-radius: 10px;
 	border-style: none;
 	font-size: 10px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+		
+	#wrapper{
+	width: 100%;
+	margin: 0;
+}
+.section-header{
+	width: 100%;
+	padding: 0;
+
+}
+table{
+	width: 90%;
+}
+#banner{
+	/* padding: 0; */
+	height: 300px;
+}
+
+table tr{
+	height: 50px;
+	width: 100px;
+}
+
+table td:nth-child(2){
+	display: none;
+}
+
+table td:nth-child(1){
+	text-align: left;
+}
+
+table td:nth-child(3){
+	text-align: left;
+}
+#logoContainer{
+	left:30%;
+}
+	
+}
+@media only screen and (min-width:601px) and (max-width:1000px){
+	
 }
